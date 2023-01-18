@@ -11,5 +11,7 @@
     <context:property-placeholder location="classpath:myApp.properties" />
 
     <context:component-scan base-package="mogila"/>
+<!--    <context:property-placeholder location="classpath:myApp.properties" />-->
+
 
 </beans>

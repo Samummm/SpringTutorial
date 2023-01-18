@@ -1,8 +1,15 @@
 package mogila;
 
-public class Dog implements Pet {
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+//@Component
+ public class Dog implements Pet {
 //    private String name;
-    public Dog(){
+       public Dog(){
         System.out.println("Dog bean is created");
     }
 //    public void setName(String name) {
@@ -16,10 +23,11 @@ public class Dog implements Pet {
     public  void say(){
         System.out.println("Bow-Wow");
     }
-
+    @PostConstruct
     public void init(){
         System.out.println("Class Dog: init method");
     }
+    @PreDestroy
     public void destroy(){
         System.out.println("Class Dog: destroy method");
     }

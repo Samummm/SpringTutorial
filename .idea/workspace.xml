@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="New Project Old Theme">
+    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="1.16">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mogila/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mogila/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mogila/myConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mogila/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mogila/ConfigWithAnnotations1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/ConfigWithAnnotations1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mogila/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mogila/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +65,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "ae181c0e987bcf678ae79bfb9d917bcf",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +77,7 @@
       <recent name="C:\Users\admin\IdeaProjects\SpringCurse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigWithAnnotations1">
+  <component name="RunManager" selected="Application.Test6">
     <configuration name="ConfigWithAnnotations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mogila.ConfigWithAnnotations1" />
       <module name="SpringCurse" />
@@ -81,15 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test4" />
+    <configuration name="ScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mogila.ScopeTest" />
       <module name="SpringCurse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mogila.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mogila.Test5" />
+      <module name="SpringCurse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mogila.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mogila.Test6" />
       <module name="SpringCurse" />
       <extension name="coverage">
         <pattern>
@@ -116,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.ScopeTest" />
         <item itemvalue="Application.ConfigWithAnnotations1" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.mogila.Test4" />
-        <item itemvalue="Application.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +161,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673854533708</updated>
-      <workItem from="1673854535222" duration="10723000" />
+      <workItem from="1673854535222" duration="10784000" />
+      <workItem from="1673953332119" duration="1150000" />
+      <workItem from="1674026716516" duration="7834000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Old Theme">
       <created>1673874539236</created>
@@ -140,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673874539236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.16">
+      <created>1673880268486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673880268486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Project Old Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Project Old Theme" />
+    <MESSAGE value="1.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.16" />
   </component>
 </project>
