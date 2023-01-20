@@ -8,18 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="1.22">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/AbstractLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/SchoolLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" afterDir="false" />
+    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2.3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mogila/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mogila/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/Test6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mogila/myConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mogila/myConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/AbstractLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/AbstractLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/SchoolLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/SchoolLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAndSecurityAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "ae181c0e987bcf678ae79bfb9d917bcf",
+    "spring.configuration.checksum": "bfe92affe2e0039aadb3a99bbfd70bb5",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -166,7 +162,8 @@
       <workItem from="1673854535222" duration="10784000" />
       <workItem from="1673953332119" duration="1150000" />
       <workItem from="1674026716516" duration="8067000" />
-      <workItem from="1674110576307" duration="9249000" />
+      <workItem from="1674110576307" duration="13203000" />
+      <workItem from="1674222979532" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Old Theme">
       <created>1673874539236</created>
@@ -189,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674053909998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2.3">
+      <created>1674200039616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674200039616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +203,7 @@
     <MESSAGE value="New Project Old Theme" />
     <MESSAGE value="1.16" />
     <MESSAGE value="1.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.22" />
+    <MESSAGE value="2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3" />
   </component>
 </project>
