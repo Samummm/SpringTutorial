@@ -8,13 +8,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2.6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/ExceptionHandlingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/MyPointcuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/SecurityAcpect.java" afterDir="false" />
+    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aop/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAndSecurityAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/ExceptionHandlingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/ExceptionHandlingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/MyPointcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/MyPointcuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/SecurityAcpect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/SecurityAcpect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +165,7 @@
       <workItem from="1674026716516" duration="8067000" />
       <workItem from="1674110576307" duration="13203000" />
       <workItem from="1674222979532" duration="3394000" />
-      <workItem from="1674462506625" duration="3460000" />
+      <workItem from="1674462506625" duration="7513000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Old Theme">
       <created>1673874539236</created>
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674226954315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2.7">
+      <created>1674468351571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674468351571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +221,7 @@
     <MESSAGE value="1.22" />
     <MESSAGE value="2.3" />
     <MESSAGE value="2.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.6" />
+    <MESSAGE value="2.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.7" />
   </component>
 </project>
