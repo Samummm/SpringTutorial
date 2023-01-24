@@ -8,15 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2.7">
+    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2.8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/UniversityLoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/UniLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/ExceptionHandlingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/ExceptionHandlingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/MyPointcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/MyPointcuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/aspects/SecurityAcpect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/aspects/SecurityAcpect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <recent name="C:\Users\admin\IdeaProjects\SpringCurse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="ConfigWithAnnotations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mogila.ConfigWithAnnotations1" />
       <module name="SpringCurse" />
@@ -116,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mogila.Test5" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.Test2" />
       <module name="SpringCurse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mogila.*" />
+          <option name="PATTERN" value="aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.ScopeTest" />
         <item itemvalue="Application.ConfigWithAnnotations1" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,8 @@
       <workItem from="1674026716516" duration="8067000" />
       <workItem from="1674110576307" duration="13203000" />
       <workItem from="1674222979532" duration="3394000" />
-      <workItem from="1674462506625" duration="7513000" />
+      <workItem from="1674462506625" duration="7542000" />
+      <workItem from="1674544743145" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Old Theme">
       <created>1673874539236</created>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674468351571</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.8">
+      <created>1674486044897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674486044897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="2.3" />
     <MESSAGE value="2.6" />
     <MESSAGE value="2.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.7" />
+    <MESSAGE value="2.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.8" />
   </component>
 </project>
