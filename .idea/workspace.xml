@@ -8,13 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="2 All">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="a073981d-411f-483f-b281-780f684b3346" name="Changes" comment="3.5">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/admin/IdeaProjects/SpringCurse/src/test/java",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "spring.configuration.checksum": "bfe92affe2e0039aadb3a99bbfd70bb5",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/admin/IdeaProjects/SpringCurse/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/jre1.8.0_361&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bfe92affe2e0039aadb3a99bbfd70bb5&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\SpringCurse\resources" />
@@ -81,8 +80,11 @@
       <recent name="C:\Users\admin\IdeaProjects\SpringCurse\src\main\java" />
       <recent name="C:\Users\admin\IdeaProjects\SpringCurse" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\SpringCurse\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.hibernate_test.Test1">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aop.Test1" />
       <module name="SpringCurse" />
@@ -135,7 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="hibernate_test.Test1" />
+      <module name="SpringCurse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hibernate_test.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_361\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hibernate_test.Test1" />
       <module name="SpringCurse" />
       <extension name="coverage">
@@ -148,12 +160,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.hibernate_test.Test1" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test6" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.hibernate_test.Test1" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test6" />
       </list>
     </recent_temporary>
@@ -179,6 +198,16 @@
       <workItem from="1675071240094" duration="4724000" />
       <workItem from="1675080948609" duration="3769000" />
       <workItem from="1675089207497" duration="865000" />
+      <workItem from="1675090326439" duration="64000" />
+      <workItem from="1675167039258" duration="1487000" />
+      <workItem from="1675168542926" duration="30000" />
+      <workItem from="1675168581170" duration="840000" />
+      <workItem from="1675169437646" duration="169000" />
+      <workItem from="1675169663279" duration="956000" />
+      <workItem from="1675170725718" duration="488000" />
+      <workItem from="1675171373122" duration="2080000" />
+      <workItem from="1675175613111" duration="1057000" />
+      <workItem from="1675236150626" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Old Theme">
       <created>1673874539236</created>
@@ -243,11 +272,25 @@
       <option name="project" value="LOCAL" />
       <updated>1674746222935</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="3.5">
+      <created>1675090374219</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675090374219</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Project Old Theme" />
@@ -258,6 +301,7 @@
     <MESSAGE value="2.7" />
     <MESSAGE value="2.8" />
     <MESSAGE value="2 All" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 All" />
+    <MESSAGE value="3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5" />
   </component>
 </project>
