@@ -1,9 +1,9 @@
 package hibernate_test.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name="employees")
@@ -22,7 +22,6 @@ public class Employee {
 
     public Employee() {
     }
-
     public Employee(String name, String surname, String department, int salary) {
         this.name = name;
         this.surname = surname;
@@ -39,10 +38,6 @@ public class Employee {
                 ", department='" + department + '\'' +
                 ", salary=" + salary +
                 '}';
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public void setName(String name) {
