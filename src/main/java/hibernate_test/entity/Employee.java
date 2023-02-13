@@ -1,18 +1,16 @@
 package hibernate_test.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="employees")
 public class Employee {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
     @Column(name="name")
-    private String name;
+    private String firstName;
     @Column(name="surname")
     private String surname;
     @Column(name="department")
@@ -23,7 +21,7 @@ public class Employee {
     public Employee() {
     }
     public Employee(String name, String surname, String department, int salary) {
-        this.name = name;
+        this.firstName = name;
         this.surname = surname;
         this.department = department;
         this.salary = salary;
@@ -33,7 +31,7 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name='" + firstName + '\'' +
                 ", surname='" + surname + '\'' +
                 ", department='" + department + '\'' +
                 ", salary=" + salary +
@@ -41,7 +39,7 @@ public class Employee {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.firstName = name;
     }
 
     public void setSurname(String surname) {
@@ -61,7 +59,7 @@ public class Employee {
     }
 
     public String getName() {
-        return name;
+        return firstName;
     }
 
     public String getSurname() {
